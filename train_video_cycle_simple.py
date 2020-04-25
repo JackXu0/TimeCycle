@@ -47,9 +47,9 @@ from utils import Logger, AverageMeter, mkdir_p, savefig
 import models.dataset.vlog_train as vlog
 
 params = {}
-params['filelist'] = '/nfs.yoda/xiaolonw/vlog/vlog_frames_12fps.txt'
+params['filelist'] = 'C:/Project/TimeCycle/dataset/test.txt'
 params['imgSize'] = 256
-params['imgSize2'] = 320
+params['imgSize2'] = 306
 params['cropSize'] = 240
 params['cropSize2'] = 80
 params['offset'] = 0

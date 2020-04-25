@@ -2,9 +2,9 @@
 import numpy as np
 import os
 
-src = 'C:/Project/TimeCycle/dataset/manifest.txt'
-outlist = 'C:/Project/TimeCycle/dataset/vlog_frames_12fps.txt'
-foldername = 'C:/Project/TimeCycle/dataset/vlog_frames_12fps/'
+src = 'C:/Project/TimeCycle/dataset/mf.txt'
+outlist = 'C:/Project/TimeCycle/dataset/test.txt'
+foldername = 'C:/Project/DL_Competition/data/'
 
 file = open(src, 'r')
 fout = open(outlist, 'w')

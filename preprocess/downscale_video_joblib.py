@@ -11,9 +11,9 @@ from joblib import delayed
 from joblib import Parallel
 import pandas as pd
 
-file_src = 'YOUR_DATASET_FOLDER/manifest.txt'
-folder_path = 'YOUR_DATASET_FOLDER/vlog/'
-output_path = 'YOUR_DATASET_FOLDER/vlog_256/'
+file_src = 'C:/Project/TimeCycle/dataset/manifest.txt'
+folder_path = 'C:/Project/TimeCycle/dataset/vlog/'
+output_path = 'C:/Project/TimeCycle/dataset/vlog_256/'
 
 
 file_list = []
@@ -55,7 +55,7 @@ def download_clip_wrapper(row):
 
     if os.path.isdir(outname) is False:
         try:
-            os.makedirs( outname, 0755 )
+            os.makedirs( outname )
         except:
             print(outname)
 

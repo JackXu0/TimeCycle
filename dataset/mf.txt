@@ -1,0 +1,5 @@
+scene_0/sample_0/
+scene_0/sample_1/
+scene_0/sample_2/
+scene_0/sample_3/
+scene_0/sample_4/

@@ -13,9 +13,9 @@ import pandas as pd
 
 
 
-folder_path = 'YOUR_DATASET_FOLDER/vlog_256/'
-output_path = 'YOUR_DATASET_FOLDER/vlog_frames_12fps/'
-file_src = 'YOUR_DATASET_FOLDER/manifest.txt'
+folder_path = 'C:/Project/TimeCycle/dataset/vlog_256/'
+output_path = 'C:/Project/TimeCycle/dataset/vlog_frames_12fps/'
+file_src = 'C:/Project/TimeCycle/dataset/manifest.txt'
 
 
 file_list = []
@@ -55,7 +55,7 @@ def download_clip_wrapper(row):
 
     if os.path.isdir(outname) is False:
         try:
-            os.makedirs( outname, 0755 )
+            os.makedirs( outname )
         except:
             print(outname)
 
